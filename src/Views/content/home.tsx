@@ -1,12 +1,16 @@
 import React from 'react';
+import User from '../../Models/User';
 
-function Home()
+
+function Home(props:User)
 {
+
     return(
         <div className="container">
-            <h1>Welcome to our Site!</h1>
+            <h1 id="WelcomeHeader">Welcome to our Site! {props.displayName}.</h1>
             <hr/>
         </div>
+        
     );
 }
 
