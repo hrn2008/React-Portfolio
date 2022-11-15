@@ -1,1 +1,105 @@
 /* CSS for the App Component */
+/*
+Mini Portfolio Assignment
+Hamidreza Naji
+S#: 200503068
+Course: Advance Client-side JavaScript - COMP2112
+*/
+
+/* HTML, Body */
+* {
+    padding:0;
+    margin:0;
+}
+html,body{
+    min-height: 100vh;
+}
+body {
+    background: url('../public/img/bg.png') repeat;
+}
+a {
+    color:rgb(248, 98, 98);
+    text-decoration: none;
+}
+a:hover {
+    color:#f00;
+}
+/*/////////////////////// container section //////////////////////////////*/
+.container{
+    display: grid;
+    grid-template-columns: 80% 20% ;
+    grid-template-areas:     
+    "bodycontent pic"
+    "bodycontent contact";    
+    grid-template-rows: 280px 1fr;
+	row-gap:10px;
+    margin: 14px 100px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#ccc;
+    text-align: justify;
+}
+/* /////////////NavBar/////////////////// */
+.navbar {
+    margin-top:50px;
+    width:85%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.navbar a img {
+    position: absolute;
+    margin-top: -42px;
+    margin-left: -13px;
+}
+
+/* ///////////////Body Content///////////////////// */
+.content {
+    grid-area: bodycontent;
+    padding: 50px;
+}
+.content .card {
+    color:#202020;
+}
+.services p {
+    margin:5px 15px;
+}
+/* /////////My Picture//////////////////////// */
+.pic {
+    grid-area: pic;
+}
+.pic img{
+    width:200px;
+    height: auto;
+}
+/* ///////////////Contact Info//////////////////// */
+.contact{
+    grid-area: contact;
+}
+.contact ul li{
+    list-style: none;
+    padding: 8px 5px;
+}
+.bg-light {
+    color:#202020;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.list-group {
+    --bs-list-group-color: #ccc;
+    --bs-list-group-bg: #333333;
+    --bs-list-group-border-color: rgb(247 245 245 / 11%);
+}
+/* //////////////Footer//////////////////////// */
+.footer {
+    text-align: center;
+    width:85%;
+    color:#e5e5e5;
+    margin-left:auto;
+    margin-right:auto;
+    border-top:2px solid whitesmoke;
+    text-align: center;
+}
+.logo img {
+    width:130px;
+    text-align: center;
+}

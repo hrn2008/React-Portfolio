@@ -2,12 +2,13 @@ import React from 'react';
 
 function Footer()
 {
-    return(
-        <nav className="navbar fixed-bottom bg-light">
-            <div className="container-fluid">
-                <h5>All Rights Reserved. COMP2112. &copy; Copyright 2022.</h5>
+    return (
+        <div className="footer">
+            <small>© Hamidreza Naji | S#:200305068 | Advance Client-side JavaScript - COMP2112</small>
+            <div className="logo">
+                <img src="../img/logo.png" alt="logo" />
             </div>
-        </nav>
+        </div>
     );
 }
 
