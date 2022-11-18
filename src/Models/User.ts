@@ -1,6 +1,5 @@
 interface User
-{
-    username: string;
-    displayName:string;
+{ 
+    name: string;
 }
-export default User;
+export default User; 

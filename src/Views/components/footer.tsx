@@ -1,3 +1,10 @@
+/* Footer as a component*/
+/*
+REACT Portfolio Assignment
+Hamidreza Naji
+S#: 200503068
+Course: Advance Client-side JavaScript - COMP2112
+*/
 import React from 'react';
 
 function Footer()

@@ -1,5 +1,11 @@
 
-
+/* Progress Component */
+/*
+REACT Portfolio Assignment
+Hamidreza Naji
+S#: 200503068
+Course: Advance Client-side JavaScript - COMP2112
+*/
 function Progress() {
   return (
     <div className="skill-container">

@@ -1,3 +1,11 @@
+/* projects page */
+/*
+REACT Portfolio Assignment
+Hamidreza Naji
+S#: 200503068
+Course: Advance Client-side JavaScript - COMP2112
+*/
+
 import React, { useEffect } from 'react';
 
 function Projects()
