@@ -13,19 +13,19 @@ function Header()
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item me-5">
-                    <NavLink to={"/home"} className="nav-link" id="Home" aria-current="page"><i className="fa-solid fa-house-chimney fa-lg"></i> Home Page</NavLink>
+                    <NavLink to={"/home"} className="nav-link" id="Home" aria-current="page">Home Page</NavLink>
                 </li>
                 <li className="nav-item me-5">
-                    <NavLink to={"/about"} className="nav-link" id="About"  aria-current="page"><i className="fa-solid fa-circle-info fa-lg"></i> About Me</NavLink>
+                    <NavLink to={"/about"} className="nav-link" id="About"  aria-current="page">About Me</NavLink>
                 </li>
                 <li className="nav-item me-5">
-                    <NavLink to={"/projects"} className="nav-link" id="Projects"  aria-current="page" ><i className="fa-solid fa-diagram-project fa-lg"></i>Projects</NavLink>
+                    <NavLink to={"/projects"} className="nav-link" id="Projects"  aria-current="page" >Projects</NavLink>
                 </li>
                 <li className="nav-item me-5">
-                    <NavLink to={"/services"} className="nav-link" id="Services"  aria-current="page"><i className="fa-solid fa-signs-post fa-lg"></i> Services</NavLink>
+                    <NavLink to={"/services"} className="nav-link" id="Services"  aria-current="page"> Services</NavLink>
                 </li>
                 <li className="nav-item me-5">
-                    <NavLink to={"/contact"} className="nav-link" id="Contact"  aria-current="page" ><i className="fa-solid fa-envelope fa-lg"></i> Contact Us</NavLink>
+                    <NavLink to={"/contact"} className="nav-link" id="Contact"  aria-current="page" > Contact Us</NavLink>
                 </li>
                 </ul>
             </div>
