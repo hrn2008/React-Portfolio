@@ -30,8 +30,8 @@ function App() {
       <BrowserRouter>
         <Header></Header>
           <Routes>
-            <Route path="/" element={<Home name="dear user" />}></Route>
-            <Route path="/home" element={<Home name="dear user" />}></Route>
+            <Route path="/" element={<Home name="Dear user" />}></Route>
+            <Route path="/home" element={<Home name="Dear user" />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/projects" element={<Projects />}></Route>
             <Route path="/services" element={<Services />}></Route>
