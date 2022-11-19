@@ -23,14 +23,14 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 //main function
 function App() {
   //i wanted get the name of user and then send it for name in Route instead of "dear user".but it didn't work..
-  let x = prompt("what is your name?");
+  let name = prompt("Please enter your name: ");
   return (
     <div className="App">
       <BrowserRouter>
         <Header></Header>
         <Routes>
-          <Route path="/" element={<Home name={x || "NO NAME"} />}></Route>
-          <Route path="/home" element={<Home name="Dear user" />}></Route>
+          <Route path="/" element={<Home name={name || "NO NAME"} />}></Route>
+          <Route path="/home" element={<Home name={name || "NO NAME"} />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/services" element={<Services />}></Route>

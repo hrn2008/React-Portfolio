@@ -20,7 +20,7 @@ function Home(props:User)
         <div className="container">
             {/* Content */}
             <div className="content home">
-                <h1>Welcome to our Site, {props.name}.</h1>
+                <h1>Welcome to My Site, {props.name}.</h1>
                 <p id="bio">A junior web developer with more than two years of work experiences. I have been working with HTML, CSS,JavaScript, JQuery, SQL, and MySQL databases. I have a great knowledge of PHP, Bootstrap, and CMS such as WordPress, and Joomla. I am a self-starter, self-learner, and enthusiastic to tackle new programing strategies and software.<Link to={"/about"}>Read More...</Link></p>
                 <h4 id="proj">Projects</h4>
                 <p id="proj-p">You can see some examples of my work in <Link to={"/projects"}>Projects page</Link>. Most of them are designed and developed with WordPress CMS (include of HTML, CSS, JS), and some are examples of academic projects.</p>
