@@ -11,7 +11,7 @@ import Progress from '../components/progress';
 function About() {
     //using useEffect to change the title
     useEffect(() => {
-        document.title = "Services";
+        document.title = "About me";
     }, []);
 
     return (
